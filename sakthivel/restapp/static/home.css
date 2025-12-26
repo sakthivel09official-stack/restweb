@@ -1,0 +1,70 @@
+
+
+body {
+  background-image:url('back.webp');
+  font-family: Arial, sans-serif;
+  background-color: rgb(245, 241, 239);
+  color: rgb(249, 243, 243);
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color:  #0d0d0d;
+  padding: 20px;
+  border-bottom: 0px solid rgb(30, 210, 241);
+}
+
+h1 {
+    position:relative;
+  color: rgb(10, 210, 245);
+  right:30%;
+  top:20%;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: rgb(194, 94, 94);
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  left:30%;
+  
+}
+
+nav a.active,
+nav a:hover {
+  color: rgb(10, 210, 245);
+
+  position: relative;
+  left:30%;
+}
+
+
+.home {
+  padding: 40px;
+}
+
+.home img {
+  width: 500px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 3px solid rgb(10, 210, 245);
+
+}
+
+footer {
+  background-color: black;
+  color: #deb4b4;
+  padding: 10px;
+  border-top: 2px solid red;
+}

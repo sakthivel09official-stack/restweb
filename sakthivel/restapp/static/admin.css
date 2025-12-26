@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f00303;
+}
+
+/* Header */
+header {
+    background-color: #0a0a0a;
+    color: rgb(10, 216, 248);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(227, 233, 231);
+    font-weight: 600;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main h2 {
+    color: #222;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+/* Team Cards */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member {
+    background-color: #111;
+    color: rgb(199, 68, 68);
+    border-radius: 12px;
+    width: 150px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-8px);
+}
+
+.member img {
+    width: 90%;
+    height: 210px;
+    object-fit: cover;
+    border: 4px solid rgb(255, 41, 3);
+}
+
+.member h3 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.member p {
+    color: #d6a206;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #442727;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9em;
+}
